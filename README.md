@@ -1,5 +1,8 @@
 ### Hi there 👋
 
++ I'm currently studying at [University of Potsdam](https://uni-potsdam.de)
++ Coding on some Projects on the side :)
+
 <!--
 **hweichelt/hweichelt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

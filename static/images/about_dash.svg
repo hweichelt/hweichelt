@@ -35,10 +35,6 @@
                     transition: 200ms;
                 }
 
-                .container:hover {
-                    border-color: var(--color-primary);
-                }
-
                 ul {
                     padding: 0;
                     list-style-type: none;

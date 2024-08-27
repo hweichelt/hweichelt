@@ -103,6 +103,20 @@
                     animation: hi 2s forwards;
                     z-index: 2;
                 }
+                .banner-text #hi .hand::after{
+                    content: " ";
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-40%, -40%);
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border-radius: 50%;
+                    filter: blur(1rem);
+                    background: #000;
+                    opacity: 0.25;
+                z-index: -1;
+                }
                 .banner-text .blur{
                     content: " ";
                     position: absolute;

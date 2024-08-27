@@ -9,6 +9,7 @@
                     --color-fg: #000;
                     --color-border: #d0d7de;
                     --color-primary: #ff8023;
+                    --color-secondary: #6a5b94;
                     --border-width: max(1px, 0.0625rem);
                     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
                     color: var(--color-fg);
@@ -22,6 +23,7 @@
                         --color-fg: #FFF;
                         --color-border: #30363d;
                         --color-primary: #6a5b94;
+                        --color-secondary: #ff8023;
                     }
                 }
 
@@ -89,11 +91,17 @@
                     font-weight: bold;
                 }
 
+                .banner-text .text{
+                    z-index: 2;
+                }
+
                 .banner-text #hi{
                     position: relative;
+                    z-index: 1;
                 }
                 .banner-text #hi .hand{
                     animation: hi 2s forwards;
+                    z-index: 2;
                 }
                 .banner-text .blur{
                     content: " ";
@@ -158,6 +166,18 @@
                     }
                 }
 
+                @keyframes backdrop{
+                    0%{
+                        opacity: 0;
+                    }
+                    50%{
+                        opacity: 0;
+                    }
+                    100%{
+                        opacity: 0.25;
+                    }
+                }
+
 
                 @media (prefers-reduced-motion) {
                       #hi {
@@ -173,11 +193,22 @@
                     gap: 0.5rem;
                 }
                 #banner{
+                    position: relative;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     height: 10rem;
                     animation: frame 3s forwards;
+                }
+                #banner .backdrop{
+                    background: var(--color-primary);
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    opacity: 0;
+                    animation: backdrop 3s forwards;
                 }
                 #about-list {
                     width: 100%;
@@ -190,11 +221,12 @@
             <div id="content">
                 <div class="container" id="banner">
                     <div class="banner-text">
-                        <div>Hi! I'm Hannes</div>
+                        <div class="text">Hi! I'm Hannes</div>
                         <div id="hi">
                             <div class="blur"></div>
                             <div class="hand">👋</div>
                         </div>
+                        <div class="backdrop"></div>
                     </div>
                 </div>
                 <div id="about-list">

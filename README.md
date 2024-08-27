@@ -13,6 +13,6 @@ Check out my project [`clingo-explaid`](https://github.com/krr-up/clingo-explaid
   + This repository contains the work for my bachelor thesis I wrote in 2023
   + I deals with explorative methods for finding Minimal Unsatisfiable Cores / Subsets (MUC/MUS)
 
-***
+
 
 <img src="static/images/about_dash.svg" width="100%" alt="Personal Infos">

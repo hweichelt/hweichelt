@@ -19,6 +19,7 @@
                     h6 {
                         --color-bg: #000;
                         --color-fg: #FFF;
+                        --color-border: #30363d;
                     }
                 }
 

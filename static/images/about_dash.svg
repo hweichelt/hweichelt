@@ -143,14 +143,14 @@
                         transform: translate(-50%, -50%);
                     }
                     50%{
-                        transform: translate(-50%, -5%);
+                        transform: translate(-25%, -25%);
                     }
                     100%{
-                        width: 50rem;
-                        height: 50rem;
-                        filter: blur(40px);
+                        width: 40rem;
+                        height: 40rem;
+                        filter: blur(120px);
                         opacity: 0.5;
-                        transform: translate(-50%, -5%);
+                        transform: translate(-25%, -25%);
                     }
                 }
 

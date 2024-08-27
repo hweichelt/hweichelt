@@ -60,7 +60,7 @@
                 }
 
                 ul li svg path{
-                    fill: var(--color-fg);
+                    fill: color-mix(in srgb, var(--color-fg) 50%, transparent);
                 }
 
                 h6 {

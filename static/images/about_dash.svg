@@ -91,6 +91,7 @@
 
                 .banner-text #hi{
                     position: relative;
+                    animation: hi 2s forwards;
                 }
                 .banner-text #hi::after{
                     content: " ";
@@ -105,12 +106,23 @@
                     animation: un-blur 1s forwards;
                 }
 
+                @keyframes hi{
+                    0% { transform: rotate( 0.0deg) }
+                   10% { transform: rotate(14.0deg) }
+                   20% { transform: rotate(-8.0deg) }
+                   30% { transform: rotate(14.0deg) }
+                   40% { transform: rotate(-4.0deg) }
+                   50% { transform: rotate(10.0deg) }
+                   60% { transform: rotate( 0.0deg) }
+                  100% { transform: rotate( 0.0deg) }
+                }
+
                 @keyframes un-blur{
                     0%{
-                        width: 12rem;
-                        height: 12rem;
-                        filter: blur(100px);
-                        opacity: 0;
+                        width: 10rem;
+                        height: 10rem;
+                        filter: blur(20px);
+                        opacity: 0.2;
                     }
                     100%{
                         width: 8rem;

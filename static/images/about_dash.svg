@@ -14,7 +14,7 @@
                 }
 
                 @media (prefers-color-scheme: dark) {
-                    div {
+                    div, a, h6 {
                         --color-bg: #000;
                         --color-fg: #FFF;
                     }

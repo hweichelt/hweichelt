@@ -13,22 +13,4 @@ Check out my project [`clingo-explaid`](https://github.com/krr-up/clingo-explaid
   + This repository contains the work for my bachelor thesis I wrote in 2023
   + I deals with explorative methods for finding Minimal Unsatisfiable Cores / Subsets (MUC/MUS)
 
-<style>
-  .box{
-    background: white;
-    border: solid 1px var(--borderColor-default);
-    min-height: 5rem;
-  }
-</style>
-
-<div>
-  <div class="box">
-    <h6 itemprop="title">Programming Languages</h6>
-  </div>
-  <div class="box">
-    <h6 itemprop="title">Libraries and Frameworks</h6>
-  </div>
-  <div class="box">
-    <h6 itemprop="title">My Projects</h6>
-  </div>
-</div>
+<img src="static/images/about_dash.svg" alt="Personal Infos">

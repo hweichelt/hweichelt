@@ -7,8 +7,8 @@
                 h6 {
                     --color-bg: #FFF;
                     --color-fg: #000;
-                    --color-primary: #ff8023;
                     --color-border: #d0d7de;
+                    --color-primary: #ff8023;
                     --border-width: max(1px, 0.0625rem);
                     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
                     color: var(--color-fg);
@@ -20,8 +20,8 @@
                     h6 {
                         --color-bg: #000;
                         --color-fg: #FFF;
-                        --color-primary: #6a5b94;
                         --color-border: #30363d;
+                        --color-primary: #6a5b94;
                     }
                 }
 

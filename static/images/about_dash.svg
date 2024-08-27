@@ -163,7 +163,7 @@
                         width: 40rem;
                         height: 40rem;
                         filter: blur(120px);
-                        opacity: 0.5;
+                        opacity: 0.4;
                         transform: translate(-25%, -25%);
                     }
                 }

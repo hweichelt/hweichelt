@@ -98,23 +98,35 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    width: 8rem;
-                    height: 8rem;
+
                     background: var(--color-primary);
                     border-radius: 50%;
                     z-index: -1;
-                    animation: un-blur forwards;
+                    animation: un-blur 1s forwards;
                 }
 
                 @keyframes un-blur{
                     0%{
+                        width: 12rem;
+                        height: 12rem;
                         filter: blur(100px);
                         opacity: 0;
                     }
                     100%{
+                        width: 8rem;
+                        height: 8rem;
                         filter: blur(20px);
                         opacity: 1;
                     }
+                }
+
+                @media (prefers-reduced-motion) {
+                      #hi {
+                            animation: none;
+                      }
+                      #hi::after {
+                            animation: none;
+                      }
                 }
 
                 #content{

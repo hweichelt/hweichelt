@@ -105,8 +105,11 @@
                 ul ul{
                     padding-left: 1rem;
                 }
+                ul li{
+                    font-size: 0.8rem;
+                }
                 ul ul li{
-                    font-size: 0.9rem;
+                    font-size: 0.7rem;
                 }
                 #content{
                     display: flex;

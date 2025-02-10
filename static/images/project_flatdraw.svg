@@ -180,7 +180,6 @@
                             <li>Features:</li>
                             <ul>
                                 <li>Compressing Flatland maps to images</li>
-                                <li>Transforming images to Flatland maps</li>
                                 <li>Interactive web-based map editor</li>
                             </ul>
                         </ul>
